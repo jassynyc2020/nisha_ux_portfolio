@@ -18,6 +18,7 @@ header {
 img,
 video {
   width: 100%;
+  box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Global styels */
@@ -48,15 +49,17 @@ a {
   font-weight: 600;
   color: inherit;
 }
-a:hover {
+/* a:hover {
   opacity: 0.7;
-}
+} */
 /* Block styles */
+.cell-image {
+  box-shadow: 4px 16px 35px rgba(0, 0, 0, 0.1);
+}
 .nav {
   display: flex;
   justify-content: center;
-  padding: 15px 0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  padding: 15px 10px;
   position: fixed;
   width: 100%;
   background: white;
@@ -67,14 +70,40 @@ a:hover {
 .hero-container {
   display: flex;
   justify-content: center;
-}
+  padding-top: 30px;
+  
+  }
 .nav-list {
   list-style: none;
   display: flex;
   justify-content: center;
+  padding-left: 10px;
 }
-.btn {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+.btn,
+.nav-list__link {
+  width: 100px;
+  height: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+a:hover {
+  background-color: lightblue;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
 }
 .side-nav {
   display: flex;
