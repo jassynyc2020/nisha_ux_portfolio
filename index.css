@@ -71,8 +71,7 @@ a {
   display: flex;
   justify-content: center;
   padding-top: 30px;
-  
-  }
+}
 .nav-list {
   list-style: none;
   display: flex;
@@ -93,14 +92,14 @@ a {
   background-color: #fff;
   border: none;
   border-radius: 45px;
-  box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 8px 15px rgba(4, 17, 27, 0.1);
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
 }
 
 a:hover {
-  background-color: lightblue;
+  background-color: fuchsia;
   box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
   color: #fff;
   transform: translateY(-7px);
