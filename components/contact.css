@@ -23,8 +23,7 @@ img {
   letter-spacing: 2.5px;
   font-weight: 500;
   color: #000;
-  background-color: #fff;
-  border: none;
+  background-color: lightblue;
   border-radius: 45px;
   box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
@@ -34,11 +33,14 @@ img {
 .email-phone-number {
   display: grid;
   justify-items: center;
+  margin-top: 2rem;
+  
 }
 .social-media-container {
   display: grid;
   justify-content: space-around;
-  margin-top: 50%;
+  margin-top: 1rem;
+  padding: 20px;
 }
 .fa-twitter {
   background: #55acee;
@@ -55,7 +57,7 @@ img {
   color: white;
 }
 .fa {
-  padding: 20px;
+  padding: 30px;
   font-size: 30px;
   width: 100%;
   text-align: center;

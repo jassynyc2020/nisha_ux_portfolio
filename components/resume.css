@@ -13,6 +13,7 @@ img {
   width: 100%;
 }
 .btn {
+  margin: 20px;
   width: 100px;
   height: 30px;
   font-family: "Roboto", sans-serif;
@@ -29,4 +30,7 @@ img {
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
+}
+.resume {
+  margin: 20px;
 }
