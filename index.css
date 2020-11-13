@@ -119,6 +119,7 @@ a {
   justify-content: center;
 }
 
+
 @media all and (max-width: 320px) {
   .container {
     display: grid;

@@ -41,6 +41,11 @@ h2, .dkc-title {
 .media-title {
   display: grid;
   justify-content: center;
+  text-align: center;
   font-family: 'Khula', sans-serif;
   margin-top: 100px;
+}
+.dkc-video {
+  display: flex;
+  justify-content: center;
 }
