@@ -8,12 +8,20 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Khula:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sacramento&display=swap">
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="/components/flier.css" />
     <link rel="stylesheet" href="./components/logos.css" />
     <link rel="stylesheet" href="./components/certificate.css" />
     <link rel="stylesheet" href="./components/resume.css" />
     <link rel="stylesheet" href="./components/contact.css" />
+    <link rel="stylesheet" href="./components/media.css" />
     <meta name="description" content="UX UI Portfolio by Nisha Haider" />
     <title>Nisha's Portfolio</title>
   </head>
@@ -24,62 +32,61 @@
           <a class="nav-item" href="/components/certificate.html">Certs</a>
         </li>
         <li class="nav-list__link">
-          <a class="nav-item" href="./components/resume.html">Resume</a>
+          <a class="nav-item" href="./components/resume.html">About</a>
         </li>
         <li class="nav-list__link">
           <a class="nav-item" href="./components/contact.html">Contact</a>
         </li>
       </ul>
     </nav>
-    <header class="hero-container">
-      <video width="640" height="480" autoplay>
-        <source
-          class="cell-image"
-          src="./assets/My Post (3).mp4"
-          type="video/mp4"
-        />
-      </video>
+    <header>
+      <div class="container_projects">
+        <h1>
+          Hi, I'm Nisha!
+          <hr />
+          A UX UI Designer trying to create an accessible world.
+        </h1>
+      </div>
     </header>
-    <nav class="side-nav">
-      <ul class="side-nav-list">
-        <li class="side-nav-list__item">
-          <a class="side-nav-list__link" href="/components/flier.html"
-            ><button class="btn fliers">Fliers</button></a
-          >
-        </li>
-        <li class="side-nav-list__item">
-          <a class="side-nav-list__link" href="/components/logos.html"
-            ><button class="btn logos">Logos</button></a
-          >
-        </li>
-        <li class="side-nav-list__item">
-          <a class="side-nav-list__link" href="#"
-            ><button class="btn media-projects">Media Projects</button></a
-          >
-        </li>
       </ul>
     </nav>
-    <div class="case veality-app">
-      <h1>Veality</h1>
-      <p>
-        How to attract Senior Adults to our Veality (Virtual Reality Experience)
-        user family
-      </p>
+      <div class="case mysensar-app">
+        <h2 class="case-name">My SensAR</h2>
+        <p>Mobile App, Research, Augmented Reality, Usability Testing.</p>
+      </div>
+      <hr>
+      <div class="case imagine-app">
+        <h2 class="case-name">Imagine</h2>
+        <p>Creating a photo filter app using React JS</p>
+      </div>
     </div>
-    <div class="case mysensar-app">
-      <h1>My SensAR</h1>
-      <p>
-        Giving people more control over their health with self-education and
-        self-diagnosis by integrating augmented reality to pinpoint the exact
-        location of their symptoms. It saves money, time and worries over going
-        to a doctor’s office, especially for those who are reluctant to see a
-        doctor or need to save their money.
-      </p>
+    <div class="bottom_buttons">
+      <div class="logos">
+          <li class="bottom-nav-list__item">
+          <a class="bottom-nav-list__link" href="/components/logos.html"
+          ><h2 class="bottom-title">Logos</h2</a>
+            <h3 class="bottom-description">Adobe Photoshop, Canva</h3>
+          </li>
+      </div>
+      <div class="fliers">
+          <li class="bottom-nav-list__item">
+          <a class="bottom-nav-list__link" href="/components/flier.html"
+          ><h2 class="bottom-title">Fliers</h2></a>
+          <h3 class="bottom-description">Adobe Photoshop, Canva</h3>
+          </li>
+      </div>
+      <div class="media">
+          <li class="bottom-nav-list__item">
+          <a class="bottom-nav-list__link" href="./components/media.html"
+          ><h2 class="bottom-title">Videos</h2</a>
+            <h3 class="bottom-description">iMovie, Kapwing</h3>
+          </li>
+      </div>
     </div>
-    <div class="case imagine-app">
-      <h1>Imagine</h1>
-      <p>Creating a photo filter app using React JS</p>
-    </div>
-    <script type="text/javascript"></script>
+      <hr>
+      <div class="footer">
+        <h5 class="website">Website created by Nisha Haider</h5>
+        <h6 class="website-language">Visual Studio - HTML, CSS</h6>
+      </div>
   </body>
 </html>

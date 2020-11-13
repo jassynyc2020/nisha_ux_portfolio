@@ -35,3 +35,6 @@ img {
 .certificate-container {
   margin-top: 50px;
 }
+.back {
+  box-shadow: 5px 7px #888888;
+}
