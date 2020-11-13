@@ -88,9 +88,10 @@ hr {
   justify-content: left;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-.mysensar {
+.mysensar, .veality {
   background-color: var(--accent-color-2);
 }
+
 .logos,
 .fliers,
 .media {
