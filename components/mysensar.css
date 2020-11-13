@@ -1,5 +1,4 @@
 * {
-  font-family: "Khula", sans-serif;
   box-sizing: border-box;
 }
 body,
@@ -17,4 +16,15 @@ header {
 img,
 video {
   width: 100%;
+}
+.mysensar-hero-des {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-family: "Khula", sans-serif;;
+}
+.mysensar-task {
+  display: flex;
+  justify-content: center;
+  
 }

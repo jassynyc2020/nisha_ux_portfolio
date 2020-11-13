@@ -18,21 +18,11 @@ video {
 li {
   list-style: none;
 }
-nav {
-  position: fixed;
-}
 /* Global styels */
 :root {
   --primary-color: #ffffff;
   --accent-color-1: #b8e3f0;
-  --accent-color-2: ;
-}
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-transform: capitalize;
+  --accent-color-2: #dcf5f7;
 }
 p {
   line-height: 1.5;
@@ -44,6 +34,9 @@ a {
   font-weight: 600;
   color: inherit;
 }
+hr {
+  border: none;
+}
 /* Block styles */
 .cell-image {
   display: flex;
@@ -52,13 +45,13 @@ a {
 .nav {
   display: flex;
   justify-content: center;
-  position: fixed;
   width: 100%;
 }
 .container_projects {
   display: flex;
   justify-content: center;
-  padding-top: 70px;
+  font-family: "Khula", sans-serif;;
+  padding-top: 10px;
   margin: 20px;
 }
 .nav-list {
@@ -66,19 +59,17 @@ a {
   display: inline-block;
   justify-content: space-around;
   padding-left: 10px;
-  position: fixed;
 }
 .nav-list__link {
   display: inline-block;
   width: 80px;
   height: 30px;
   font-family: "Khula", sans-serif;
-  font-size: 0.5rem;
+  font-size: .8rem;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   color: black;
-  background-color: var(--accent-color-1);
   border: none;
   transition: all 0.3s ease 0s;
   cursor: pointer;
@@ -91,11 +82,14 @@ a {
 }
 .case-title {
   display: flex;
-  justify-content: center;
 }
 .case-name {
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.mysensar {
+  background-color: var(--accent-color-2);
 }
 .logos,
 .fliers,
@@ -114,11 +108,13 @@ a {
 .bottom-description {
   font-size: 0.5rem;
 }
-.website, .footer, .website-language {
+.website,
+.footer,
+.website-language {
   display: grid;
   justify-content: center;
+  margin: 1.5px;
 }
-
 
 @media all and (max-width: 320px) {
   .container {
@@ -138,3 +134,49 @@ a {
     margin: 5px 0px;
   }
 }
+/* .topnav {
+  display: flex;
+  overflow: hidden;
+  background-color: var(--primary-color);
+  /* position: relative; */
+/* }
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+a.icon {
+  background-color: var(--primary-color);
+  color: black;
+}
+.topnav a.icon {
+  background: var(--primary-color);
+  display: flex;
+  position: right;
+  right: 0;
+  top: 0;
+}
+.topnav a:hover {
+  background-color:red;
+  color: black;
+  
+}
+.fa {
+  display: flex;
+  justify-content: right;
+  color: black;
+}
+.fa {
+  margin: 0;
+  width: 100%;
+}
+.active {
+  color: white;
+} */ */

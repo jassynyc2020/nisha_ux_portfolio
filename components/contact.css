@@ -29,10 +29,10 @@ img {
   outline: none;
 }
 .email-phone-number {
-  display:grid;
+  display: grid;
   justify-items: center;
-  font-family: 'Khula', sans-serif;
-  margin: 100px;
+  font-family: "Khula", sans-serif;
+  margin-top: 100px;
 }
 .social-media-container {
   display: grid;
@@ -43,7 +43,6 @@ img {
 .fa-twitter {
   background: #55acee;
   color: white;
-  
 }
 
 .fa-github {

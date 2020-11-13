@@ -14,7 +14,9 @@
     />
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sacramento&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="/components/flier.css" />
     <link rel="stylesheet" href="./components/logos.css" />
@@ -26,6 +28,17 @@
     <title>Nisha's Portfolio</title>
   </head>
   <body>
+    <!-- <div class="topnav">
+      <a href="./components/resume.html" class="active">Nisha Haider</a>
+      <div id="myLinks">
+        <a href="./components/certificate.html">Certs</a>
+        <a href="./components/contact.html">Contact</a>
+        <a href="./components/resume.html">About</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div> -->
     <nav class="nav">
       <ul class="nav-list">
         <li class="nav-list__link">
@@ -43,7 +56,7 @@
       <div class="container_projects">
         <h1>
           Hi, I'm Nisha!
-          <hr />
+       <hr>
           A UX UI Designer who loves finding creative solutions.
         </h1>
       </div>
@@ -52,20 +65,31 @@
     </nav>
       <div class="case mysensar">
         <h2 class="case-name">My SensAR</h2>
+        <p class="case-description">MySensar is an eHealth app that gives people
+          more control over their health with self-education and self-diagnosis by
+          integrating augmented reality to pinpoint the exact location of their symptoms.
+        </p>
+        <img src="./components/assets/mySensARscreens.png" alt="mysensAR app" class="mysensar-app">
+        <a class="mysensar-link" href="./components/mysensar.html"><h3 class="mysensar-button">View more ></h3>
+        </a>
         <p class="case-descr">Mobile App, Research, Augmented Reality, Usability Testing.</p>
       </div>
       <hr>
       <div class="case veality">
         <h2 class="case-name">Veality</h2>
+        <img src="./components/assets/Copy of Veality Foundation Presentation.png" alt="veality-app">
+        <a href="./" class="veality-link"></a>
         <p class="case-descr">Virtual Reality App, Research, Market Analysis, Usablity Testing.</p>
-
-
+        
+        
+        <!-- <a class="bottom-nav-list__link" href="./components/media.html"
+        ><h2 class="bottom-title">Videos</h2</a> -->
       </div>
       <hr>
-      <div class="case imagine-app">
+      <!-- <div class="case imagine-app">
         <h2 class="case-name">Imagine</h2>
         <p>Creating a photo filter app using React JS</p>
-      </div>
+      </div> -->
     </div>
     <div class="bottom_buttons">
       <div class="logos">
@@ -97,5 +121,15 @@
         <h6 class="website-language">Visual Studio - HTML, CSS</h6>
       </footer>
       </div>
+      <!-- <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script> -->
   </body>
 </html>
