@@ -10,7 +10,7 @@ body {
   font-family: "Khula", sans-serif;
 }
 img {
-  width: 100%;
+  /* width: 100%; */
 }
 :root {
   --primary-color: #ffffff;
@@ -39,12 +39,12 @@ img {
   display: grid;
   justify-items: center;
   font-family: "Khula", sans-serif;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 .email-button,
 .call-button {
   font-family: "Khula", sans-serif;
-  font-size: 1rem;
+  font-size: 2rem;
   border: 10px groove var(--accent-social-3);
   background-color: var(--primary-color);
 }
@@ -53,20 +53,13 @@ img {
   justify-content: space-around;
   margin-top: 1rem;
 }
-
-.fa-twitter {
-  background: #55acee;
-  color: white;
+.twitter {
 }
 
-.fa-github {
-  background: purple;
-  color: white;
+.github {
 }
 
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
+.linkedin {
 }
 .fa {
   padding: 10px;
