@@ -141,7 +141,6 @@ hr {
   justify-content: space-around;
   margin: 1.5px;
 }
-
 @media all and (max-width: 520px) {
   .container {
     display: grid;

@@ -53,23 +53,6 @@ img {
   justify-content: space-around;
   margin-top: 1rem;
 }
-.twitter {
-}
-
-.github {
-}
-
-.linkedin {
-}
-.fa {
-  padding: 10px;
-  margin: 30px;
-  width: 100px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50px;
-}
-
 /* Add a hover effect if you want */
 .email-button:hover,
 .call-button:hover,

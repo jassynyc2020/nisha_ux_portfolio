@@ -29,8 +29,6 @@ img {
   letter-spacing: 2.5px;
   font-weight: 500;
   color: #000;
-  background-color:
-  border: none;
   border-radius: 45px;
   box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
@@ -38,12 +36,10 @@ img {
   outline: none;
 }
 .mypic {
-  display: flex;
+  display: grid;
   justify-items: center;
   height: 300px;
-  width: 300px;
   margin-top: 50px;
-  margin-left: 70px;
 }
 .resume {
   width: 100%;
