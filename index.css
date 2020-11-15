@@ -53,7 +53,7 @@ hr {
 }
 .nav-item:hover {
   opacity: 0.7;
-  background-color: var(--accent-social-3);
+  background-color: var(--accent-color-1);
 }
 .container_projects {
   display: flex;
