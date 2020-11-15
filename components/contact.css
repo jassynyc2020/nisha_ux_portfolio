@@ -7,15 +7,22 @@ html {
   padding: 0;
 }
 body {
-  font-family: "Open Sans";
+  font-family: "Khula", sans-serif;
 }
 img {
   width: 100%;
 }
+:root {
+  --primary-color: #ffffff;
+  --accent-color-1: #b8e3f0;
+  --accent-color-2: #dce3f7;
+  --accent-social-3: #f2a7f7;
+}
 .btn {
   width: 100px;
   height: 30px;
-  font-family: "Roboto", sans-serif;
+  background-color: var(--accent-color-1);
+  font-family: "Khula", sans-serif;
   font-size: 0.5rem;
   text-align: center;
   text-transform: uppercase;
@@ -33,6 +40,13 @@ img {
   justify-items: center;
   font-family: "Khula", sans-serif;
   margin-top: 100px;
+}
+.email-button,
+.call-button {
+  font-family: "Khula", sans-serif;
+  font-size: 1rem;
+  border: 10px groove var(--accent-social-3);
+  background-color: var(--primary-color);
 }
 .social-media-container {
   display: grid;
@@ -57,15 +71,20 @@ img {
 .fa {
   padding: 10px;
   margin: 30px;
-  width: 200px;
+  width: 100px;
   text-align: center;
   text-decoration: none;
+  border-radius: 50px;
 }
 
 /* Add a hover effect if you want */
-.fa:hover {
+.email-button:hover,
+.call-button:hover,
+.fa:hover,
+.back:hover {
   opacity: 0.7;
 }
 .back {
   box-shadow: 5px 7px #888888;
+  background-color: var(--accent-color-1);
 }

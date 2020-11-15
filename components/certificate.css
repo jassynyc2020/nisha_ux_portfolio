@@ -7,24 +7,29 @@ html {
   padding: 0;
 }
 body {
-  font-family: "Open Sans";
+  font-family: "Khula", sans-serif;
 }
 img {
   width: 100%;
   padding-bottom: 20px;
 }
+:root {
+  --primary-color: #ffffff;
+  --accent-color-1: #b8e3f0;
+  --accent-color-2: #dcf5f7;
+}
 .btn {
   margin: 10px;
   width: 100px;
   height: 30px;
-  font-family: "Roboto", sans-serif;
+  background-color: var(--accent-color-1);
+  font-family: "Khula", sans-serif;
   font-size: 0.5rem;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: 500;
   color: #000;
-  background-color: #fff;
   border: none;
   border-radius: 45px;
   box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.1);
