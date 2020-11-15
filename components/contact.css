@@ -45,7 +45,7 @@ img {
 .call-button {
   font-family: "Khula", sans-serif;
   font-size: 2rem;
-  border: 10px groove var(--accent-social-3);
+  border: 10px groove var(--accent-color-1);
   background-color: var(--primary-color);
 }
 .social-media-container {
