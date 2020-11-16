@@ -9,7 +9,6 @@ html {
 }
 header {
   display: flex;
-  /* justify-content: center; */
 }
 img,
 video {
@@ -48,9 +47,6 @@ hr {
   justify-content: center;
   width: 100%;
 }
-.nav-item {
-  padding: 20px;
-}
 .nav-item:hover {
   opacity: 0.7;
   background-color: var(--accent-color-1);
@@ -64,12 +60,12 @@ hr {
 }
 .nav-list {
   list-style: none;
-  display: inline-block;
+  display: flex;
   justify-content: space-around;
-  padding-left: 10px;
 }
 .nav-list__link {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 80px;
   height: 30px;
   font-family: "Khula", sans-serif;
@@ -114,6 +110,9 @@ hr {
 .fliers,
 .media {
   text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid var(--accent-color-1);
 }
 .logos:hover,
 .fliers:hover,
@@ -123,9 +122,7 @@ hr {
 }
 .bottom_buttons {
   display: grid;
-  justify-content: space-around;
-  padding: 20px;
-  margin: 20px;
+  justify-content: center;
 }
 .bottom-title {
   font-size: 1rem;
@@ -134,6 +131,7 @@ hr {
 .bottom-description {
   font-size: 0.5rem;
 }
+
 .website,
 .footer,
 .website-language {
@@ -168,6 +166,6 @@ hr {
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
   }
 }
