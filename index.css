@@ -17,6 +17,9 @@ video {
 li {
   list-style: none;
 }
+a:hover {
+  background-color: var(--accent-social-3);
+}
 /* Global styels */
 :root {
   --primary-color: #ffffff;
