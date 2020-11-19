@@ -57,16 +57,26 @@ hr {
 .mypic {
   display: flex;
   justify-items: center;
-  width: 300px;
-  height: 300px;
-  margin-top: 50px;
+  
 }
-.container_projects {
+.mypic-container {
   display: flex;
+  justify-items: center;
+}
+.intro {
+  display: grid;
   justify-content: center;
   font-family: "Khula", sans-serif;
   padding-top: 10px;
   margin: 20px;
+}
+.bio-description{
+  display: 
+  justify-content: center;
+}
+.intro-bio-container {
+  display: flex;
+  justify-content: center;
 }
 .nav-list {
   list-style: none;
@@ -145,7 +155,6 @@ hr {
 .bottom-description {
   font-size: 0.5rem;
 }
-
 .website,
 .footer,
 .website-language {
@@ -175,6 +184,11 @@ hr {
     display: flex;
     justify-content: center;
   }
+  .mypic {
+    display: flex;
+    justify-items: center;
+  }
+}
 }
 @media all and (max-width: 1100px) {
   .container {
@@ -194,4 +208,10 @@ hr {
     display: grid;
     justify-content: center;
   }
+  .mypic {
+    display: flex;
+    justify-items: center;
+    margin-top: 50px;
+  }
 }
+
