@@ -54,6 +54,13 @@ hr {
   opacity: 0.7;
   background-color: var(--accent-color-1);
 }
+.mypic {
+  display: flex;
+  justify-items: center;
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+}
 .container_projects {
   display: flex;
   justify-content: center;
