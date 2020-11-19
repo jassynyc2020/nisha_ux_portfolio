@@ -27,7 +27,7 @@ a:hover {
   --accent-color-2: #dcf5f7;
   --accent-social-3: #f2a7f7;
 }
-p {
+/* p {
   line-height: 1.5;
   margin: 20px;
 }
@@ -36,12 +36,13 @@ a {
   transition: opacity 0.15s ease-in-out;
   font-weight: 600;
   color: inherit;
-}
+} */
 hr {
   border: none;
 }
 /* Block styles */
-.gif {
+.gif,
+.giphy-embed {
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -62,7 +63,6 @@ hr {
 .mypic {
   display: flex;
   justify-items: center;
-  
 }
 .mypic-container {
   display: flex;
@@ -75,8 +75,8 @@ hr {
   padding-top: 10px;
   margin: 20px;
 }
-.bio-description{
-  display: 
+.bio-description {
+  display: flex;
   justify-content: center;
 }
 .intro-bio-container {
@@ -172,6 +172,12 @@ hr {
   justify-content: center;
 }
 @media all and (max-width: 520px) {
+  .gif,
+  .giphy-embed {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
   .container {
     display: grid;
   }
@@ -194,8 +200,14 @@ hr {
     justify-items: center;
   }
 }
-}
+
 @media all and (max-width: 1100px) {
+  .gif,
+  .giphy-embed {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
   .container {
     display: grid;
   }
@@ -219,4 +231,3 @@ hr {
     margin-top: 50px;
   }
 }
-
