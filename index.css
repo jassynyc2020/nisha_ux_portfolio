@@ -83,9 +83,13 @@ hr {
   outline: none;
 }
 .case {
-  display: inline-block;
+  display: flex;
   justify-content: center;
   border: 2px solid var(--accent-color-2);
+}
+.case-container {
+  display: flex;
+  justify-content: center;
 }
 .case-title {
   display: flex;
@@ -124,7 +128,7 @@ hr {
   background-color: var(--accent-social-3);
 }
 .bottom_buttons {
-  display: grid;
+  display: flex;
   justify-content: center;
 }
 .bottom-title {
@@ -142,6 +146,10 @@ hr {
   justify-content: space-around;
   margin: 1.5px;
 }
+.gigs-label {
+  display: flex;
+  justify-content: center;
+}
 @media all and (max-width: 520px) {
   .container {
     display: grid;
@@ -155,6 +163,10 @@ hr {
     justify-content: space-around;
     padding: 20px;
     margin: 20px;
+  }
+  .case-container {
+    display: flex;
+    justify-content: center;
   }
 }
 @media all and (max-width: 1100px) {
@@ -170,5 +182,9 @@ hr {
     justify-content: space-around;
     padding: 20px;
     margin: 10px;
+  }
+  .case-container {
+    display: grid;
+    justify-content: center;
   }
 }
