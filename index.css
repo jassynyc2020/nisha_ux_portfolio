@@ -6,6 +6,8 @@ body,
 html {
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 header {
   display: flex;
@@ -16,6 +18,10 @@ video {
 }
 li {
   list-style: none;
+}
+a {
+  display: flex;
+  justify-content: center;
 }
 a:hover {
   background-color: var(--accent-social-3);
@@ -46,6 +52,8 @@ hr {
   display: flex;
   justify-content: center;
   margin-top: 100px;
+  width: 100%;
+  max-width: 300px;
 }
 .cell-image {
   display: flex;
@@ -177,9 +185,11 @@ hr {
     display: flex;
     justify-content: center;
     width: 100%;
+    max-width: 300px;
   }
   .container {
     display: grid;
+    justify-content: center;
   }
   li {
     display: block;
@@ -207,9 +217,11 @@ hr {
     display: flex;
     justify-content: center;
     width: 100%;
+    max-width: 300px;
   }
   .container {
     display: grid;
+    justify-content: center;
   }
   li {
     display: block;
