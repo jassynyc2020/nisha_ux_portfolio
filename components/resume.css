@@ -3,7 +3,7 @@
 }
 body,
 html {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 body {
@@ -16,6 +16,11 @@ body {
   --primary-color: #ffffff;
   --accent-color-1: #b8e3f0;
   --accent-color-2: #dcf5f7;
+}
+.nav-bar,
+.nav-bar-back {
+  display: flex;
+  justify-content: flex-start;
 }
 .btn {
   margin: 20px;
@@ -35,18 +40,14 @@ body {
   cursor: pointer;
   outline: none;
 }
-.mypic {
-  display: flex;
-  justify-items: center;
-  width: 300px;
-  height: 300px;
-  margin-top: 50px;
-}
-.resume {
-  display: flex;
+.about-container {
+  display: grid;
   justify-content: center;
-  width: 100%;
-  margin-top: 20px;
+  margin: 100px;
+}
+.about-name {
+  display: flex;
+  justify-content: left;
 }
 .back {
   box-shadow: 5px 7px #888888;
