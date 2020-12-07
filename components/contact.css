@@ -35,6 +35,10 @@ img {
   cursor: pointer;
   outline: none;
 }
+.contact-container {
+  display: grid;
+  margin-top: 100px;
+}
 .email-phone-number {
   display: grid;
   justify-items: center;
@@ -47,6 +51,9 @@ img {
   font-size: 2rem;
   border: 10px groove var(--accent-color-1);
   background-color: var(--primary-color);
+}
+.call-button {
+  text-decoration: none;
 }
 .social-media-container {
   display: grid;
@@ -63,4 +70,9 @@ img {
 .back {
   box-shadow: 5px 7px #888888;
   background-color: var(--accent-color-1);
+}
+.twitter,
+.linkedin,
+.github {
+  margin: 20px;
 }
