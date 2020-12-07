@@ -1,0 +1,35 @@
+* {
+  font-family: "Khula", sans-serif;
+  box-sizing: border-box;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+header {
+  display: flex;
+}
+img,
+video {
+  width: 100%;
+}
+li {
+  list-style: none;
+}
+a {
+  display: flex;
+  justify-content: center;
+}
+a:hover {
+  background-color: var(--accent-social-3);
+}
+/* Global styels */
+:root {
+  --primary-color: #ffffff;
+  --accent-color-1: #b8e3f0;
+  --accent-color-2: #dcf5f7;
+  --accent-social-3: #f2a7f7;
+}
