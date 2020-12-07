@@ -9,9 +9,9 @@ html {
   display: flex;
   justify-content: center;
 }
-header {
+/* header {
   display: flex;
-}
+} */
 img,
 video {
   width: 100%;
@@ -71,6 +71,7 @@ hr {
 .mypic {
   display: flex;
   justify-items: center;
+  max-width: 220px;
 }
 .mypic-container {
   display: flex;
@@ -83,13 +84,23 @@ hr {
   padding-top: 10px;
   margin: 20px;
 }
-.bio-description {
+.bio-container {
   display: flex;
   justify-content: center;
+  margin-top: 40px;
+
+}
+.bio-content {
+  margin-top: 57px;
+  font-size: 2rem;
+  margin-left: 20px;
 }
 .intro-bio-container {
   display: flex;
   justify-content: center;
+  margin: 20px;
+
+
 }
 .nav-list {
   list-style: none;
@@ -185,9 +196,9 @@ hr {
     display: flex;
     justify-content: center;
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
   }
-  .container {
+  .case-container {
     display: grid;
     justify-content: center;
   }
@@ -201,14 +212,7 @@ hr {
     padding: 20px;
     margin: 20px;
   }
-  .case-container {
-    display: flex;
-    justify-content: center;
-  }
-  .mypic {
-    display: flex;
-    justify-items: center;
-  }
+ 
 }
 
 @media all and (max-width: 1100px) {
@@ -217,9 +221,9 @@ hr {
     display: flex;
     justify-content: center;
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
   }
-  .container {
+  .case-container {
     display: grid;
     justify-content: center;
   }
@@ -237,9 +241,5 @@ hr {
     display: grid;
     justify-content: center;
   }
-  .mypic {
-    display: flex;
-    justify-items: center;
-    margin-top: 50px;
-  }
+
 }
