@@ -44,13 +44,42 @@ img , video {
 .back {
   box-shadow: 5px 7px #888888;
 }
+.gif,
+.giphy-embed {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 200px;
+  margin-top: 100px;
+}
 .veality-container {
-  display: flex;
+  display: grid;
   justify-content: center;
 }
-.veality-hero-des {
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-  font-family: "Khula", sans-serif;
+@media all and (max-width: 520px) {
+    .gif,
+    .giphy-embed {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      max-width: 200px;
+    }
+    .veality-container {
+      display:flex;
+      justify-content: center;
+    }  
 }
+  
+  @media all and (max-width: 1100px) {
+    .gif,
+    .giphy-embed {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      max-width: 200px;
+    }
+    .veality-container {
+      display: flex;
+      justify-content: center;
+    }
+  }
