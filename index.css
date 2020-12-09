@@ -51,7 +51,8 @@ hr {
 .giphy-embed {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 20px;
+  margin-left: 100px;
   width: 100%;
   max-width: 300px;
 }
@@ -88,7 +89,6 @@ hr {
   display: flex;
   justify-content: center;
   margin-top: 40px;
-
 }
 .bio-content {
   margin-top: 57px;
@@ -142,10 +142,15 @@ hr {
 .mysensar-button,
 .veality-button {
   margin: 20px;
+  color: white;
 }
-.mysensar,
+.mysensar {
+  background-color: red;
+  color: white;
+}
 .veality {
-  background-color: var(--accent-color-2);
+  background-color: blue;
+  color: white;
 }
 .mysensar-button:hover,
 .veality-button:hover {
@@ -217,7 +222,6 @@ hr {
     padding: 20px;
     margin: 20px;
   }
- 
 }
 
 @media all and (max-width: 1100px) {
@@ -246,5 +250,4 @@ hr {
     display: grid;
     justify-content: center;
   }
-
 }
