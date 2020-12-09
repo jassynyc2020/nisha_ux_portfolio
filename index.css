@@ -188,6 +188,13 @@ hr {
   display: flex;
   justify-content: center;
 }
+.sidegigs-title {
+  display: flex;
+  justify-content: center;
+  border: 2px solid var(--accent-social-3);
+  background-color: var(--accent-social-3);
+  padding: 30px;
+}
 @media all and (max-width: 520px) {
   .gif,
   .giphy-embed {
