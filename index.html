@@ -26,6 +26,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome/css/all.css"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="/components/flier.css" />
     <link rel="stylesheet" href="./components/logos.css" />
@@ -58,13 +60,14 @@
           <a class="nav-item" href="/components/certificate.html">Certs</a>
         </li> -->
         <li class="nav-list__link">
-          <a class="nav-item" href="./components/about.html">About</a>
+          <a class="nav-item about" href="./components/about.html">About</a>
         </li>
         <li class="nav-list__link">
-          <a class="nav-item" href="./components/contact.html">Contact</a>
+          <a class="nav-item contact" href="./components/contact.html">Contact</a>
         </li>
       </ul>
     </nav>
+    <div class="home-container">
     <header>
       <div class="intro-bio-container">
         <div class="greeting-pic">
@@ -91,32 +94,27 @@
     </nav>
     <div class="case-container">
       <div class="case mysensar">
-        <h2 class="case-name">My SensAR</h2>
-        <p class="case-description">MySensar is an eHealth app that gives people
+        <a class="mysensar-link" href="./components/mysensar.html">
+        <img src="./components/assets/mysensar-desc.png" alt="My Sensar logo" class="mysensar-logo">
+        <!-- <p class="case-description">MySensar is an eHealth app that gives people
           more control over their health with self-education and self-diagnosis by
           integrating augmented reality to pinpoint the exact location of their symptoms.
         </p>
  
-        <a class="mysensar-link" href="./components/mysensar.html"><h3 class="mysensar-button">View more ></h3>
-        </a>
-        <p class="case-descr">Mobile App, Research, Augmented Reality, Usability Testing.</p>
+        <p class="case-descr">Mobile App, Research, Augmented Reality, Usability Testing.</p> -->
+      </a>
       </div>
       <hr>
       <div class="case veality">
-        <h2 class="case-name">Veality</h2>
-        <p class="case-description">Veality is a virtual reality entertainment app that
-          is specifically designed for the Senior Adult users.
-        </p>
-        <a href="./" class="veality-link"></a>
-        <p class="case-descr">Virtual Reality App, Research, Market Analysis, Usablity Testing.</p>
-        <a class="veality-link" href="./components/veality.html"><h3 class="veality-button">View more ></h3>
+    <a href="/components/veality.html" class="veality-link">
+      <img src="./components/assets/Veality-background-color.png" alt="Veality logo" class="veality-logo"></a>
       </div>
     </div>
       <hr>
     </div>
     <div class="sidegigs-button">
       <a class="sidegigs-link" href="components/logos.html" href="components/media.html" href="components/flier.html">
-    <h2 class="sidegigs-title">Side Gigs</h2></a>
+    <img src="./components/assets/side-gigs-logo.png" alt="side gigs" class="sidegigs-logo"></a>
       <!-- <div class="logos">
           <li class="bottom-nav-list__item one">
           <a class="bottom-nav-list__link" href="/components/logos.html"
@@ -140,8 +138,9 @@
           </div>
           </li>
       </div> -->
-    </div>
+      </div>
       <hr>
+    </div>
       <foooter>
       <div class="footer">
         <h5 class="website">Website created by Nisha Haider</h5>

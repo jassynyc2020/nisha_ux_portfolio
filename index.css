@@ -6,8 +6,6 @@ body,
 html {
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
 }
 /* header {
   display: flex;
@@ -69,6 +67,32 @@ hr {
   opacity: 0.7;
   background-color: var(--accent-color-1);
 }
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-list__link {
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  height: 30px;
+  font-family: "Khula", sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: black;
+  border: none;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.contact,
+.about {
+  border: 2px solid var(--accent-color-1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 .mypic {
   display: flex;
   justify-items: center;
@@ -95,31 +119,13 @@ hr {
   font-size: 2rem;
   margin-left: 20px;
 }
+.home-container {
+  margin: 20px;
+}
 .intro-bio-container {
   display: flex;
   justify-content: center;
   margin: 20px;
-}
-.nav-list {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-}
-.nav-list__link {
-  display: flex;
-  justify-content: center;
-  width: 80px;
-  height: 30px;
-  font-family: "Khula", sans-serif;
-  font-size: 0.8rem;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  color: black;
-  border: none;
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  outline: none;
 }
 .case {
   display: flex;
@@ -127,8 +133,9 @@ hr {
   border: 2px solid var(--accent-color-2);
 }
 .case-container {
-  display: flex;
+  display: grid;
   justify-content: center;
+  margin: 20px;
 }
 .case-title {
   display: flex;
@@ -139,25 +146,51 @@ hr {
   margin: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+.mysensar-logo {
+  display: inline-block;
+  justify-content: center;
+  /* width: 283px;
+  height: 250px; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.veality-logo {
+  display: inline-block;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.sidegigs-logo {
+  display: inline-block;
+  justify-content: center;
+  width: 200px;
+  height: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 .mysensar-button,
 .veality-button {
   margin: 20px;
   color: white;
 }
 .mysensar {
-  background-color: red;
-  color: white;
+  display: flex;
+  justify-content: center;
 }
 .veality {
-  background-color: blue;
-  color: white;
+  display: flex;
+  justify-content: center;
 }
-.mysensar-button:hover,
-.veality-button:hover {
+.mysensar-link:hover,
+.sidegigs-link:hover,
+.veality-link:hover {
   opacity: 0.7;
-  background-color: var(--accent-social-3);
+  transform: scale(1.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.logos,
+.sidegigs-logo {
+  display: inline-block;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* .logos,
 .fliers,
 .media {
   text-align: center;
@@ -170,7 +203,7 @@ hr {
 .media:hover {
   opacity: 0.7;
   background-color: var(--accent-social-3);
-}
+} */
 .bottom_buttons {
   display: flex;
   justify-content: center;
@@ -187,18 +220,9 @@ hr {
 .website-language {
   display: grid;
   justify-content: space-around;
+  margin-top: 20px;
   margin: 1.5px;
-}
-.gigs-label {
-  display: flex;
-  justify-content: center;
-}
-.sidegigs-title {
-  display: flex;
-  justify-content: center;
-  border: 2px solid var(--accent-social-3);
-  background-color: var(--accent-social-3);
-  padding: 30px;
+  font-size: 1rem;
 }
 @media all and (max-width: 520px) {
   .gif,
@@ -221,6 +245,10 @@ hr {
     justify-content: space-around;
     padding: 20px;
     margin: 20px;
+  }
+  .case-logo {
+    display: inline-block;
+    justify-content: center;
   }
 }
 

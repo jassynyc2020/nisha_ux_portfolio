@@ -34,6 +34,10 @@ img {
 .logo {
   margin-bottom: 10px;
 }
+.logo-container {
+  border: 2px solid blue;
+  background-color: black;
+}
 .logos-title {
   display: flex;
   justify-content: center;
