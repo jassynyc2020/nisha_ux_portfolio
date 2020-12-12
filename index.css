@@ -121,6 +121,7 @@ hr {
 }
 .home-container {
   margin: 20px;
+  background-color: white;
 }
 .intro-bio-container {
   display: flex;
@@ -132,13 +133,20 @@ hr {
   justify-content: center;
   border: 2px solid var(--accent-color-2);
 }
-.case-container {
-  display: grid;
+.case-container,
+.case {
+  display: flex;
   justify-content: center;
   margin: 20px;
 }
 .case-title {
   display: flex;
+}
+.case-container-label {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-family: "Khula", sans-serif;
 }
 .case-name {
   display: flex;
@@ -232,8 +240,9 @@ hr {
     width: 100%;
     max-width: 200px;
   }
-  .case-container {
-    display: grid;
+  .case-container,
+  .case {
+    display: flex;
     justify-content: center;
   }
   li {
@@ -260,8 +269,9 @@ hr {
     width: 100%;
     max-width: 200px;
   }
-  .case-container {
-    display: grid;
+  .case-container,
+  .case {
+    display: flex;
     justify-content: center;
   }
   li {
