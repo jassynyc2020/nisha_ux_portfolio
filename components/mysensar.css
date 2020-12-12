@@ -18,6 +18,12 @@ img,
 video {
   width: 100%;
 }
+h2, h3 {
+  font-weight: 700;
+}
+p {
+  font-size: 1rem;
+}
 :root {
   --primary-color: #ffffff;
   --accent-color-1: #b8e3f0;
@@ -49,10 +55,12 @@ video {
   margin: 20px;
   font-family: "Khula", sans-serif;
 }
-/* .mysensar-task {
-  display: flex;
-  justify-content: center; 
-} */
+.design-system-image, .screens {
+  width: 200px;
+  height: 300px;
+  display: flex; 
+  justify-content: center;
+}
 .back {
   box-shadow: 5px 7px #888888;
 }
