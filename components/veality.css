@@ -7,7 +7,7 @@ html {
   padding: 0;
 }
 body {
-  font-family: "Khula", sans-serif;
+  margin: 20px;
 }
 header {
   display: flex;
@@ -52,35 +52,9 @@ img , video {
   max-width: 200px;
   margin-top: 10px;
 }
-.veality-container {
-  display: grid;
+.veality-hero-des {
+  display: flex;
   justify-content: center;
-  margin-top: 190px;
+  margin: 20px;
+  font-family: "Khula", sans-serif;
 }
-@media all and (max-width: 520px) {
-    .gif,
-    .giphy-embed {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      max-width: 200px;
-    }
-    .veality-container {
-      display:flex;
-      justify-content: center;
-    }  
-}
-  
-  @media all and (max-width: 1100px) {
-    .gif,
-    .giphy-embed {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      max-width: 200px;
-    }
-    .veality-container {
-      display: flex;
-      justify-content: center;
-    }
-  }
