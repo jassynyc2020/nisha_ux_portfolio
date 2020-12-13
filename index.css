@@ -31,16 +31,6 @@ a:hover {
   --accent-color-2: #dcf5f7;
   --accent-social-3: #f2a7f7;
 }
-/* p {
-  line-height: 1.5;
-  margin: 20px;
-}
-a {
-  text-decoration: none;
-  transition: opacity 0.15s ease-in-out;
-  font-weight: 600;
-  color: inherit;
-} */
 hr {
   border: none;
 }
@@ -89,7 +79,8 @@ hr {
   outline: none;
 }
 .contact,
-.about {
+.about,
+.resume {
   border: 2px solid var(--accent-color-1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -161,8 +152,14 @@ hr {
   height: 250px; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+.mysensar-screen-1, .mysensar-screen-2 {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
 .veality-logo {
-  display: inline-block;
+  display: flex;
   justify-content: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
