@@ -152,11 +152,18 @@ hr {
   height: 250px; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.mysensar-screen-1, .mysensar-screen-2 {
+.mysensar-screen-1,
+.veality-logo {
   display: flex;
   justify-content: center;
-  width: 100px;
-  height: 100px;
+  width: 500px;
+  height: 400px;
+}
+.mysensar-navigation-screens {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
 }
 .veality-logo {
   display: flex;
