@@ -74,15 +74,23 @@ a:hover {
   background-color: var(--accent-social-3);
 }
 .bottom-title {
+  text-decoration: none;
+  color: black;
   font-size: 1rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .bottom-description {
+  text-decoration: none;
+  color: black;
   font-size: 0.5rem;
 }
-.fliers, .media, .logogs {
+.fliers,
+.media,
+.logogs {
   display: flex;
   justify-content: center;
+  text-decoration: none;
+  color: black;
 }
 .bottom-nav-list__item,
 .bottom-nav-list__link {
