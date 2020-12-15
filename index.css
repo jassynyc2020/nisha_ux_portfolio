@@ -162,8 +162,8 @@ hr {
 .sidegigs-logo {
   display: flex;
   justify-content: center;
-  width: 200px;
-  height: 250px;
+  width: 50px;
+  height: 75px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .mysensar-button,
@@ -172,11 +172,17 @@ hr {
   color: white;
 }
 .mysensar,
-.veality {
+.veality{
   display: flex;
   justify-content: center;
   position: relative;
   width: 50%;
+}
+.sidegigs-button {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
 }
 .mysensar-link:hover,
 .sidegigs-link:hover,
@@ -189,8 +195,8 @@ hr {
   display: flex;
   justify-content: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 160px
 }
 /* .logos,
 .fliers,
@@ -206,7 +212,6 @@ hr {
   opacity: 0.7;
   background-color: var(--accent-social-3);
 } */
-.mysensar-screen-1,
 .veality-logo,
 .mysensar-screen-1 {
   display: block;
@@ -237,10 +242,25 @@ hr {
   transition: 0.3s ease;
   background-color: blue;
 }
+.overlay-sidegigs {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: peachpuff;
+}
 .mysensar:hover .overlay {
   opacity: 1;
 }
 .veality:hover .overlay-veality {
+  opacity: 1;
+}
+.sidegigs-button:hover .overlay-sidegigs {
   opacity: 1;
 }
 .text {
@@ -265,23 +285,14 @@ hr {
 .bottom-description {
   font-size: 0.5rem;
 }
-.website,
-.footer,
-.website-language {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-  margin: 1.5px;
-  font-size: 1rem;
+.footer, .website {
+  display: grid;
+  justify-content: center;
+  padding: 2px;
+  font-size: 16px;
+  font-weight: 700; 
 }
 @media all and (max-width: 520px) {
-  /* .gif,
-  .giphy-embed {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    max-width: 200px;
-  } */
   .case-container,
   .case {
     display: flex;
@@ -305,15 +316,17 @@ hr {
     display: inline-block;
     justify-content: center;
   }
-}
-@media all and (max-width: 1220px) {
-  .gif,
-  .giphy-embed {
+  .sidegigs-button, .sidegigs-link {
     display: flex;
     justify-content: center;
-    width: 100%;
-    max-width: 200px;
   }
+  .footer, .website {
+    display: grid;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700; 
+  }
+@media all and (max-width: 1220px) {
   .case-container,
   .case {
     display: flex;
@@ -332,5 +345,11 @@ hr {
   .case-logo {
     display: inline-block;
     justify-content: center;
+  }
+  .footer, .website {
+    display: grid;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;  
   }
 }
