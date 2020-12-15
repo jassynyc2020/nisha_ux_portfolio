@@ -76,3 +76,8 @@ img {
 .github {
   margin: 20px;
 }
+.nav-bar,
+.nav-bar-back {
+  display: flex;
+  justify-content: flex-start;
+}

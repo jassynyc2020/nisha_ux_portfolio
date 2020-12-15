@@ -32,18 +32,37 @@ a:hover {
 hr {
   border: none;
 }
+footer {
+  margin-bottom: 50px;
+}
 /* Block styles */
 .nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   width: 100%;
-  margin-top: 20px;
+  background: #33ccff;
+}
+.nav-item {
+  margin: 26px;
+  font-family: "Khula", sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 900;
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.nav-item,
+.contact,
+.resume,
+.about {
+  margin: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .nav-list {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  margin: 50px;
+  margin: 150px;
   margin-top: 20px;
 }
 .nav-item:hover {
@@ -59,7 +78,6 @@ hr {
   font-size: 0.8rem;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 2.5px;
   color: black;
   border: none;
   transition: all 0.3s ease 0s;
@@ -69,18 +87,16 @@ hr {
 .contact,
 .about,
 .resume {
-  border: 2px solid var(--accent-color-1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .home-container {
-  margin: 20px;
   background-color: white;
 }
 .mypic-image {
   display: flex;
   justify-items: center;
-  width: 200px;
-  height: 200px;
+  width: 260px;
+  height: 270px;
 }
 .greeting-pic {
   display: flex;
@@ -101,13 +117,13 @@ hr {
 .bio-content {
   font-size: 3rem;
   margin-left: 20px;
-  margin-top: 3px ;
+  margin-top: 3px;
 }
 .intro-bio-container {
   display: flex;
   justify-content: center;
   /* margin: 20px; */
-  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 }
 .case {
   display: flex;
@@ -118,7 +134,7 @@ hr {
 .case {
   display: flex;
   justify-content: center;
-  margin: 20px;
+  margin: 10px;
 }
 .case-title {
   display: flex;

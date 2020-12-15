@@ -9,9 +9,6 @@ html {
 body {
   font-family: "Khula", sans-serif;
 }
-/* img {
-  width: 100%;
-} */
 :root {
   --primary-color: #ffffff;
   --accent-color-1: #b8e3f0;
@@ -26,7 +23,6 @@ body {
   margin: 20px;
   width: 100px;
   height: 30px;
-  background-color: var(--accent-color-1);
   font-family: "Roboto", sans-serif;
   font-size: 0.5rem;
   text-align: center;
