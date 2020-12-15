@@ -245,7 +245,7 @@ footer {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: 0.3s ease;
+  transition: 0.9s ease;
   background-color: red;
 }
 .overlay-veality {
@@ -257,7 +257,7 @@ footer {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: 0.3s ease;
+  transition: 0.9s ease;
   background-color: blue;
 }
 .overlay-sidegigs {
@@ -270,7 +270,6 @@ footer {
   width: 100%;
   opacity: 1;
   transition: 0.3s ease;
-
 }
 .mysensar:hover .overlay {
   opacity: 1;
@@ -283,7 +282,7 @@ footer {
 }
 .text {
   color: white;
-  font-size: 100px;
+  font-size: 50px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -293,11 +292,11 @@ footer {
   text-align: center;
 }
 .text-sidegigs {
-  color: white;
+  color: blue;
   font-size: 50px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 100%;
+  left: 100%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -313,6 +312,13 @@ footer {
 }
 .bottom-description {
   font-size: 0.5rem;
+}
+.side-title {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .footer,
 .website {
