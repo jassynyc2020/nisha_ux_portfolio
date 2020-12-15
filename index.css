@@ -202,19 +202,15 @@ footer {
   position: relative;
   width: 100%;
 }
+.side-title {
+  text-decoration: none;
+}
 .mysensar-link:hover,
 .sidegigs-link:hover,
 .veality-link:hover {
   opacity: 0.7;
   transform: scale(1.5);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-.sidegigs-logo {
-  display: flex;
-  justify-content: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  width: 200px;
-  height: 160px;
 }
 /* .logos,
 .fliers,
@@ -316,9 +312,11 @@ footer {
 .side-title {
   display: flex;
   justify-content: center;
-  text-decoration: none;
   color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.sidegigs-link {
+  text-decoration: none;
 }
 .footer,
 .website {

@@ -99,6 +99,10 @@ a:hover {
   text-decoration: none;
   color: black;
 }
+.side-title,
+h2 {
+  text-decoration: none;
+}
 @media all and (max-width: 520px) {
   .sidegigs-container {
     display: flex;
