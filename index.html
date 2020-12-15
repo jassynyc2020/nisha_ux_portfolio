@@ -36,30 +36,16 @@
     <link rel="stylesheet" href="./components/contact.css" />
     <link rel="stylesheet" href="./components/media.css" />
     <link rel="stylesheet" href="./components/resume.css">
+    <link rel="stylesheet" href="./components/sidegig-logo.css">
+    <link rel="stylesheet" href="./components/sidegigs.css">
     <meta name="description" content="UX UI Portfolio by Nisha Haider" />
     <title>Nisha's Portfolio</title>
   </head>
   <body>
-    <div class="gif">
-      <iframe
-        src="https://giphy.com/embed/Y966vaxBQykVi"
-        width="480"
-        height="188"
-        frameborder="0"
-        class="giphy-embed"
-        allowfullscreen
-      ></iframe>
-      <p>
-        <a
-          href="https://giphy.com/gifs/please-construction-patient-Y966vaxBQykVi"
-        ></a>
-      </p>
-    </div>
-    <nav class="nav">
+  <div class="home-container">
+    <header>
+    <div class="nav">
       <ul class="nav-list">
-        <!-- <li class="nav-list__link">
-          <a class="nav-item" href="/components/certificate.html">Certs</a>
-        </li> -->
         <li class="nav-list__link">
           <a class="nav-item about" href="./components/about.html">About</a>
         </li>
@@ -70,12 +56,11 @@
           <a class="nav-item resume" href="./components/resume.html" alt="Nisha's resume">Resume</a>
         </li>
       </ul>
-    </nav>
-    <div class="home-container">
-    <header>
+    </div> 
+  </header>
       <div class="intro-bio-container">
         <div class="greeting-pic">
-        <h1>Hi, I'm Nisha!</h1>
+        <h1 class="hi-nisha">Hi, I'm Nisha!</h1>
           <img
             class="mypic-image"
             src="./components/assets/nisha-pic.jpeg"
@@ -93,15 +78,17 @@
             and companies to improve the bottom line.</p>
         </div>
       </div>
-    </header>
       </ul>
     </nav>
     <h2 class="case-container-label">Case Studies</h2>
-    <div class="case-container">
+  <div class="case-container">
       <div class="case mysensar">
         <a class="mysensar-link" href="./components/mysensar.html">
         <img src="./components/assets/mysensar/portfolio-3-mySensARscreens.png" alt="My Sensar screen" class="mysensar-screen-1">
-        
+        <!-- <div class="container"> -->
+          <div class="overlay">
+            <div class="text">My SensAR</div>
+          </div>
         <!-- <p class="case-description">MySensar is an eHealth app that gives people
           more control over their health with self-education and self-diagnosis by
           integrating augmented reality to pinpoint the exact location of their symptoms.
@@ -113,45 +100,23 @@
       <hr>
       <div class="case veality">
     <a href="/components/veality.html" class="veality-link">
-      <img src="./components/assets/veality/vr-neon-image.jpeg" alt="virtual reality image" class="veality-logo"></a>
+      <img src="./components/assets/veality/vr-neon-image.jpeg" alt="virtual reality image" class="veality-logo">
+      <div class="overlay-veality">
+        <div class="text">Veality</div>
+      </div>
+    </a>
       </div>
     </div>
-      <hr>
+  </div>
+    <!-- <div class="sidegigs-button">
+      <a class="sidegigs-link" href="./components/sidegigs.html">
+      <img src="./components/assets/side-gigs-logo.png" alt="side gigs" class="sidegigs-logo"></a>
     </div>
-    <div class="sidegigs-button">
-      <a class="sidegigs-link" href="components/logos.html" href="components/media.html" href="components/flier.html">
-    <img src="./components/assets/side-gigs-logo.png" alt="side gigs" class="sidegigs-logo"></a>
-      <!-- <div class="logos">
-          <li class="bottom-nav-list__item one">
-          <a class="bottom-nav-list__link" href="/components/logos.html"
-          ><h2 class="bottom-title">Logos</h2</a>
-            <h3 class="bottom-description">Adobe Photoshop, Canva</h3>
-          </li>
+    <footer>
+      <div class="footer">
+        <h5 class="website">Website created by Nisha Haider</h5>
+        <h6 class="website-language">Visual Studio - HTML/CSS</h6>
       </div>
-      <div class="fliers">
-          <li class="bottom-nav-list__item two">
-          <a class="bottom-nav-list__link" href="/components/flier.html"
-          ><h2 class="bottom-title">Fliers</h2></a>
-          <h3 class="bottom-description">Adobe Photoshop, Canva</h3>
-          </li>
-      </div>
-      <div class="media">
-          <li class="bottom-nav-list__item three">
-          <a class="bottom-nav-list__link" href="./components/media.html"
-          >
-          <div class="media-button"><h2 class="bottom-title">Videos</h2</a>
-            <h3 class="bottom-description">iMovie, Kapwing</h3>
-          </div>
-          </li>
-      </div> -->
-      </div>
-      <hr>
-      <foooter>
-        <div class="footer">
-          <h5 class="website">Website created by Nisha Haider</h5>
-          <h6 class="website-language">Visual Studio - HTML/CSS</h6>
-        </div>
-      </footer>
-    </div>
+    </footer> -->
   </body>
 </html>

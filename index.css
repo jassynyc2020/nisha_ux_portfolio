@@ -7,13 +7,11 @@ html {
   margin: 0;
   padding: 0;
 }
-/* header {
-  display: flex;
-} */
 img,
 video {
   width: 100%;
 }
+
 li {
   list-style: none;
 }
@@ -35,32 +33,22 @@ hr {
   border: none;
 }
 /* Block styles */
-.gif,
-.giphy-embed {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  margin-left: 100px;
-  width: 100%;
-  max-width: 300px;
-}
-.cell-image {
-  display: flex;
-  justify-content: center;
-}
 .nav {
   display: flex;
   justify-content: center;
   width: 100%;
-}
-.nav-item:hover {
-  opacity: 0.7;
-  background-color: var(--accent-color-1);
+  margin-top: 20px;
 }
 .nav-list {
   list-style: none;
   display: flex;
   justify-content: space-around;
+  margin: 50px;
+  margin-top: 20px;
+}
+.nav-item:hover {
+  opacity: 0.7;
+  background-color: var(--accent-color-1);
 }
 .nav-list__link {
   display: flex;
@@ -84,17 +72,21 @@ hr {
   border: 2px solid var(--accent-color-1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.mypic {
+.home-container {
+  margin: 20px;
+  background-color: white;
+}
+.mypic-image {
   display: flex;
   justify-items: center;
-  max-width: 220px;
+  max-width: 300px;
 }
 .mypic-container {
   display: flex;
   justify-items: center;
 }
 .intro {
-  display: grid;
+  display: flex;
   justify-content: center;
   font-family: "Khula", sans-serif;
   padding-top: 10px;
@@ -105,14 +97,10 @@ hr {
   justify-content: center;
   margin-top: 40px;
 }
-.bio-content {
+.bio-content, .hi-nisha {
   margin-top: 57px;
-  font-size: 2rem;
+  font-size: 3rem;
   margin-left: 20px;
-}
-.home-container {
-  margin: 20px;
-  background-color: white;
 }
 .intro-bio-container {
   display: flex;
@@ -136,7 +124,7 @@ hr {
 .case-container-label {
   display: flex;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: "Khula", sans-serif;
 }
 .case-name {
@@ -158,6 +146,7 @@ hr {
   justify-content: center;
   width: 500px;
   height: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .mysensar-navigation-screens {
   display: flex;
@@ -171,7 +160,7 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .sidegigs-logo {
-  display: inline-block;
+  display: flex;
   justify-content: center;
   width: 200px;
   height: 250px;
@@ -182,13 +171,12 @@ hr {
   margin: 20px;
   color: white;
 }
-.mysensar {
-  display: flex;
-  justify-content: center;
-}
+.mysensar,
 .veality {
   display: flex;
   justify-content: center;
+  position: relative;
+  width: 50%;
 }
 .mysensar-link:hover,
 .sidegigs-link:hover,
@@ -198,9 +186,11 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .sidegigs-logo {
-  display: inline-block;
+  display: flex;
   justify-content: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 100px;
+  height: 100px;
 }
 /* .logos,
 .fliers,
@@ -216,6 +206,54 @@ hr {
   opacity: 0.7;
   background-color: var(--accent-social-3);
 } */
+.mysensar-screen-1,
+.veality-logo,
+.mysensar-screen-1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: red;
+}
+.overlay-veality {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: blue;
+}
+.mysensar:hover .overlay {
+  opacity: 1;
+}
+.veality:hover .overlay-veality {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 .bottom_buttons {
   display: flex;
   justify-content: center;
@@ -230,22 +268,26 @@ hr {
 .website,
 .footer,
 .website-language {
-  display: grid;
+  display: flex;
   justify-content: space-around;
   margin-top: 20px;
   margin: 1.5px;
   font-size: 1rem;
 }
 @media all and (max-width: 520px) {
-  .gif,
+  /* .gif,
   .giphy-embed {
     display: flex;
     justify-content: center;
     width: 100%;
     max-width: 200px;
-  }
+  } */
   .case-container,
   .case {
+    display: flex;
+    justify-content: center;
+  }
+  .home-container {
     display: flex;
     justify-content: center;
   }
@@ -264,8 +306,7 @@ hr {
     justify-content: center;
   }
 }
-
-@media all and (max-width: 1100px) {
+@media all and (max-width: 1220px) {
   .gif,
   .giphy-embed {
     display: flex;
@@ -279,17 +320,17 @@ hr {
     justify-content: center;
   }
   li {
-    display: block;
+    display: flex;
     margin: 5px 0px;
   }
   .bottom_buttons {
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
   }
-  .case-container {
-    display: grid;
+  .case-logo {
+    display: inline-block;
     justify-content: center;
   }
 }
