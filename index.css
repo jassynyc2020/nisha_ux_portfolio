@@ -79,11 +79,12 @@ hr {
 .mypic-image {
   display: flex;
   justify-items: center;
-  max-width: 300px;
+  width: 200px;
+  height: 200px;
 }
-.mypic-container {
+.greeting-pic {
   display: flex;
-  justify-items: center;
+  justify-content: flex-end;
 }
 .intro {
   display: flex;
@@ -95,17 +96,18 @@ hr {
 .bio-container {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 5px;
 }
-.bio-content, .hi-nisha {
-  margin-top: 57px;
+.bio-content {
   font-size: 3rem;
   margin-left: 20px;
+  margin-top: 3px ;
 }
 .intro-bio-container {
   display: flex;
   justify-content: center;
-  margin: 20px;
+  /* margin: 20px; */
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)
 }
 .case {
   display: flex;
@@ -127,19 +129,19 @@ hr {
   font-size: 2rem;
   font-family: "Khula", sans-serif;
 }
-.case-name {
+/* .case-name {
   display: flex;
   justify-content: left;
   margin: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-.mysensar-logo {
+} */
+/* .mysensar-logo {
   display: inline-block;
   justify-content: center;
   /* width: 283px;
   height: 250px; */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+} */
 .mysensar-screen-1,
 .veality-logo {
   display: flex;
@@ -172,7 +174,7 @@ hr {
   color: white;
 }
 .mysensar,
-.veality{
+.veality {
   display: flex;
   justify-content: center;
   position: relative;
@@ -196,7 +198,7 @@ hr {
   justify-content: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   width: 200px;
-  height: 160px
+  height: 160px;
 }
 /* .logos,
 .fliers,
@@ -214,7 +216,7 @@ hr {
 } */
 .veality-logo,
 .mysensar-screen-1 {
-  display: block;
+  display: flex;
   width: 100%;
   height: auto;
 }
@@ -285,14 +287,15 @@ hr {
 .bottom-description {
   font-size: 0.5rem;
 }
-.footer, .website {
-  display: grid;
+.footer,
+.website {
+  display: flex;
   justify-content: center;
   padding: 2px;
   font-size: 16px;
-  font-weight: 700; 
+  font-weight: 700;
 }
-@media all and (max-width: 520px) {
+/* @media all and (max-width: 520px) {
   .case-container,
   .case {
     display: flex;
@@ -352,4 +355,4 @@ hr {
     font-size: 2rem;
     font-weight: 700;  
   }
-}
+} */
