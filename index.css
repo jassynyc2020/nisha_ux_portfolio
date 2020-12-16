@@ -1,3 +1,4 @@
+/* Global styles */
 * {
   font-family: "Khula", sans-serif;
   box-sizing: border-box;
@@ -15,14 +16,6 @@ video {
 li {
   list-style: none;
 }
-a {
-  display: flex;
-  justify-content: center;
-}
-/* a:hover {
-  background-color: var(--accent-social-3); */
-
-/* Global styles */
 :root {
   --primary-color: #ffffff;
   --accent-color-1: #b8e3f0;
@@ -40,10 +33,9 @@ footer {
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  background: #33ccff;
 }
 .nav-item {
-  margin: 26px;
+  margin-top: 20px;
   font-family: "Khula", sans-serif;
   font-size: 1.2rem;
   text-decoration: none;
@@ -51,29 +43,22 @@ footer {
   color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.nav-item,
-.contact,
-.resume,
-.about {
-  margin: 30px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
 .nav-list {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  margin: 150px;
+  margin: 50px;
   margin-top: 20px;
 }
 .nav-item:hover {
-  opacity: 0.7;
-  background-color: var(--accent-color-1);
+  opacity: 1;
+  background-color: fuchsia;
 }
 .nav-list__link {
   display: flex;
   justify-content: center;
-  width: 80px;
-  height: 30px;
+  width: 100%;
+  height: 100%;
   font-family: "Khula", sans-serif;
   font-size: 0.8rem;
   text-align: center;
@@ -89,14 +74,11 @@ footer {
 .resume {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.home-container {
-  background-color: white;
-}
 .mypic-image {
   display: flex;
   justify-items: center;
-  width: 260px;
-  height: 270px;
+  width: 150px;
+  height: 170px;
 }
 .greeting-pic {
   display: flex;
@@ -112,29 +94,15 @@ footer {
 .bio-container {
   display: flex;
   justify-content: center;
-  margin-top: 5px;
-}
-.bio-content {
-  font-size: 3rem;
-  margin-left: 20px;
-  margin-top: 3px;
+  font-size: 1rem;
 }
 .intro-bio-container {
   display: flex;
   justify-content: center;
-  /* margin: 20px; */
-  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 }
-.case {
+.case-container {
   display: flex;
-  justify-content: center;
-  border: 2px solid var(--accent-color-2);
-}
-.case-container,
-.case {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
+  flex-wrap: wrap;
   padding: 0;
 }
 .case-title {
@@ -146,19 +114,7 @@ footer {
   font-size: 2rem;
   font-family: "Khula", sans-serif;
 }
-/* .case-name {
-  display: flex;
-  justify-content: left;
-  margin: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-} */
-/* .mysensar-logo {
-  display: inline-block;
-  justify-content: center;
-  /* width: 283px;
-  height: 250px; */
-/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-} */
+
 .mysensar-screen-1,
 .veality-logo {
   display: flex;
@@ -181,8 +137,8 @@ footer {
 .sidegigs-logo {
   display: flex;
   justify-content: center;
-  width: 50px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
   padding-bottom: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -195,7 +151,7 @@ footer {
 .veality {
   display: flex;
   justify-content: center;
-  position: relative;
+  /* position: relative; */
   width: 50%;
   padding-bottom: 0;
 }
@@ -215,28 +171,14 @@ footer {
   transform: scale(1.5);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-/* .logos,
-.fliers,
-.media {
-  text-align: center;
-  padding: 20px;
-  margin: 10px;
-  border: 2px solid var(--accent-color-1);
-}
-.logos:hover,
-.fliers:hover,
-.media:hover {
-  opacity: 0.7;
-  background-color: var(--accent-social-3);
-} */
 .veality-logo,
 .mysensar-screen-1 {
   display: flex;
   width: 100%;
-  height: auto;
+  /* height: auto; */
   padding-bottom: 0;
 }
-.overlay {
+/* .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -260,8 +202,8 @@ footer {
   opacity: 0;
   transition: 0.9s ease;
   background-color: blue;
-}
-.overlay-sidegigs {
+} */
+/* .overlay-sidegigs {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -271,7 +213,8 @@ footer {
   width: 100%;
   opacity: 1;
   transition: 0.3s ease;
-}
+  background-color: fuchsia;
+} */
 .mysensar:hover .overlay {
   opacity: 1;
 }
@@ -281,7 +224,7 @@ footer {
 .sidegigs-button:hover .overlay-sidegigs {
   opacity: 1;
 }
-.text {
+/* .text {
   color: white;
   font-size: 50px;
   position: absolute;
@@ -291,29 +234,7 @@ footer {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-}
-.text-sidegigs {
-  color: blue;
-  font-size: 50px;
-  position: absolute;
-  top: 100%;
-  left: 100%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.bottom_buttons {
-  display: flex;
-  justify-content: center;
-}
-.bottom-title {
-  font-size: 1rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-.bottom-description {
-  font-size: 0.5rem;
-}
+} */
 .side-title {
   display: flex;
   justify-content: center;
@@ -328,64 +249,21 @@ footer {
   font-size: 16px;
   font-weight: 700;
 }
-/* @media all and (max-width: 520px) {
+@media all and (max-width: 520px) {
+  .intro-bio-container,
+  .bio-container,
   .case-container,
-  .case {
+  .sidegigs-button {
     display: flex;
     justify-content: center;
   }
-  .home-container {
-    display: flex;
-    justify-content: center;
-  }
-  li {
-    display: block;
-    margin: 5px 0px;
-  }
-  .bottom_buttons {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    margin: 20px;
-  }
-  .case-logo {
-    display: inline-block;
-    justify-content: center;
-  }
-  .sidegigs-button, .sidegigs-link {
-    display: flex;
-    justify-content: center;
-  }
-  .footer, .website {
-    display: grid;
-    justify-content: center;
-    font-size: 2rem;
-    font-weight: 700; 
-  }
-@media all and (max-width: 1220px) {
+}
+@media all and (max-width: 1100px) {
+  .intro-bio-container,
+  .bio-container,
   .case-container,
-  .case {
+  .sidegigs-button {
     display: flex;
     justify-content: center;
   }
-  li {
-    display: flex;
-    margin: 5px 0px;
-  }
-  .bottom_buttons {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    margin: 20px;
-  }
-  .case-logo {
-    display: inline-block;
-    justify-content: center;
-  }
-  .footer, .website {
-    display: grid;
-    justify-content: center;
-    font-size: 2rem;
-    font-weight: 700;  
-  }
-} */
+}

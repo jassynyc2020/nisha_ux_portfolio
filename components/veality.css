@@ -13,13 +13,15 @@ header {
   display: flex;
   justify-content: center;
 }
-img , video {
+img,
+video {
   width: 100%;
 }
-h2, h2 {
+h2,
+h2 {
   font-weight: 700;
 }
-p{
+p {
   font-size: 1rem;
 }
 :root {
@@ -38,7 +40,7 @@ p{
   letter-spacing: 2.5px;
   font-weight: 500;
   color: #000;
-  background-color:
+  background-color: var(--accent-color-1);
   border: none;
   border-radius: 45px;
   box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.1);
