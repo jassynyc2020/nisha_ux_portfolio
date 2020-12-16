@@ -114,13 +114,14 @@ footer {
   font-size: 2rem;
   font-family: "Khula", sans-serif;
 }
-
 .mysensar-screen-1,
 .veality-logo {
   display: flex;
   justify-content: center;
-  width: 500px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
+  /* width: 500px;
+  height: 400px; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .mysensar-navigation-screens {
