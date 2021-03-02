@@ -100,8 +100,6 @@ footer {
 }
 .wix {
   text-decoration: none;
-  background-color: fuchsia;
-  color: rgba(0, 0, 0, 0.5);
 }
 .intro-bio-container {
   display: flex;
@@ -179,7 +177,7 @@ footer {
   text-decoration: none;
   color: white;
   font-weight: 900;
-  border: 5px solid blue;
+  font-style: italic;
 }
 .mysensar-link:hover,
 .sidegigs-link:hover,
