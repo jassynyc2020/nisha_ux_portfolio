@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Khula", sans-serif;
+}
+header {
+  display: flex;
+}
+img,
+video {
+  width: 100%;
+}
+li {
+  list-style: none;
+}

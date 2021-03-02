@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Khula", sans-serif;
+}
+img {
+  width: 100%;
+}
+:root {
+  --primary-color: #263238;
+  --accent-light-color-1: #4f5b62;
+  --accent-dark-color-2: #000a12;
+  --accent-heading-3: #e91e63;
+}
+.btn {
+  margin: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: var(--accent-color-1);
+  font-family: "Roboto", sans-serif;
+  font-size: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  border-radius: 45px;
+  box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.certificate-container {
+  display: flex;
+  justify-content: center;
+}
+.back {
+  box-shadow: 5px 7px #888888;
+}
+@media all and (max-width: 520px) {
+  .container {
+    display: grid;
+  }
+  li {
+    display: block;
+    margin: 5px 0px;
+  }
+  .bottom_buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+  }
+  .mypic-container {
+    display: flex;
+    justify-items: center;
+    margin-top: 50px;
+  }
+}
+@media all and (max-width: 1100px) {
+  .container {
+    display: grid;
+  }
+  li {
+    display: block;
+    margin: 5px 0px;
+  }
+  .bottom_buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 10px;
+  }
+  .mypic {
+    display: flex;
+    justify-items: center;
+    margin-top: 50px;
+  }
+}
