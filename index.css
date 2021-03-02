@@ -12,7 +12,9 @@ img,
 video {
   width: 100%;
 }
-
+p {
+  margin: 50px;
+}
 li {
   list-style: none;
 }
@@ -71,35 +73,28 @@ footer {
   cursor: pointer;
   outline: none;
 }
-.mypic-image {
-  display: flex;
-  justify-items: center;
-  width: 150px;
-  height: 170px;
-}
-.greeting-pic {
-  display: flex;
-  justify-content: flex-end;
-}
 .bio-container {
   display: flex;
   justify-content: center;
   font-size: 1.5rem;
-  margin: 20px;
+  margin-right: 20px;
 }
 .wix {
   display: grid;
   justify-content: center;
   text-decoration: none;
+  margin-top: 30px;
 }
-/* .intro-bio-container {
+.intro-bio-container {
   display: grid;
   justify-content: center;
-} */
+  margin-right: 20px;
+}
 .case-container {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
+  margin-right: 20px;
 }
 .case-title {
   display: flex;
