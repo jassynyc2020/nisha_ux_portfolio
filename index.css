@@ -26,6 +26,8 @@ hr {
   border: none;
 }
 footer {
+  display: flex;
+  justify-content: center;
   margin-bottom: 50px;
 }
 /* Block styles */
@@ -69,10 +71,6 @@ footer {
   cursor: pointer;
   outline: none;
 }
-.contact,
-.about,
-.resume {
-}
 .mypic-image {
   display: flex;
   justify-items: center;
@@ -83,20 +81,11 @@ footer {
   display: flex;
   justify-content: flex-end;
 }
-/* .intro {
-  display: flex;
-  justify-content: center;
-  font-family: "Khula", sans-serif;
-  padding-top: 10px;
-  margin: 20px;
-} */
 .bio-container {
   display: flex;
   justify-content: center;
   font-size: 1.5rem;
   margin: 20px;
-  /* margin-left: 60px;
-  margin-right: 60px; */
 }
 .wix {
   text-decoration: none;
@@ -125,9 +114,6 @@ footer {
   display: flex;
   justify-content: center;
   width: 100%;
-  /* height: 100%; */
-  /* width: 500px;
-  height: 400px; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .mysensar-navigation-screens {
@@ -159,15 +145,10 @@ footer {
 .veality {
   display: flex;
   justify-content: center;
-  /* position: relative;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 0; */
 }
 .sidegigs-button {
   display: flex;
   justify-content: center;
-  /* position: relative; */
   width: 100%;
 }
 .side-title {
@@ -182,9 +163,7 @@ footer {
 .mysensar-link {
   background-color: none;
 }
-/* .mysensar-link:hover, */
 .sidegigs-link:hover,
-/* .veality-link:hover, */
 .wix:hover {
   opacity: 0.7;
   transform: scale(1.5);
@@ -197,97 +176,11 @@ footer {
 .mysensar-screen-1 {
   display: flex;
   width: 100%;
-  /* height: auto; */
   padding-bottom: 0;
 }
-.veality-logo {
-}
-/* .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.9s ease;
-  background-color: red;
-  padding-bottom: 0;
-}
-.overlay-veality {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.9s ease;
-  background-color: blue;
-} */
-/* .overlay-sidegigs {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 1;
-  transition: 0.3s ease;
-  background-color: fuchsia;
-} */
-.mysensar:hover .overlay {
-  opacity: 1;
-}
-.veality:hover .overlay-veality {
-  opacity: 1;
-}
-.sidegigs-button:hover .overlay-sidegigs {
-  opacity: 1;
-}
-/* .text {
-  color: white;
-  font-size: 50px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-} */
-/* .side-title {
-  display: flex;
-  justify-content: center;
-  color: black;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-} */
-.footer,
 .website {
   display: flex;
   justify-content: center;
-  padding: 2px;
+  font-weight: 900;
   font-size: 1.5rem;
-  font-weight: 700;
-}
-@media all and (max-width: 520px) {
-  .intro-bio-container,
-  .bio-container,
-  .case-container,
-  .sidegigs-button {
-    display: flex;
-    justify-content: center;
-  }
-}
-@media all and (max-width: 1100px) {
-  .intro-bio-container,
-  .bio-container,
-  .case-container,
-  .sidegigs-button {
-    display: flex;
-    justify-content: center;
-  }
 }
