@@ -201,7 +201,6 @@ footer {
   padding-bottom: 0;
 }
 .veality-logo {
-  
 }
 /* .overlay {
   position: absolute;
@@ -271,7 +270,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 2px;
-  font-size: 16px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 @media all and (max-width: 520px) {
